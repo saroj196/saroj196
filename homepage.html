@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu_bar">
+    <ul >
+        <li class="active"><a href ="#">Home</a></li>
+        <li><a href ="#">About us</a>
+        <div class="submenu">
+            <ul>
+                <li> <a href="#">my mission</a> </li>
+                <li> <a href="#"> vision</a> </li>
+                <li> <a href="#">mission</a> </li>
+                <li> <a href="#">others</a></li>
+            </ul>
+
+        </div>
+         </li>
+        <li><a href ="#">service</a>
+            <div class="submenu">
+                <ul>
+                    <li> <a href="#">my mission</a> </li>
+                    <li> <a href="#"> vision</a> </li>
+                    <li> <a href="#">mission</a> </li>
+                    <li> <a href="#">others</a></li>
+                </ul>
+    
+            </div>
+        </li>
+        <li><a href ="#">clients</a>
+            <div class="submenu">
+                <ul>
+                    <li> <a href="#">my mission</a> </li>
+                    <li> <a href="#"> vision</a> </li>
+                    <li> <a href="#">mission</a> </li>
+                    <li> <a href="#">others</a></li>
+                </ul>
+    
+            </div>
+        </li>
+        <li><a href ="#">Invester</a>
+            <div class="submenu">
+                <ul>
+                    <li> <a href="#">my mission</a> </li>
+                    <li> <a href="#"> vision</a> </li>
+                    <li> <a href="#">mission</a> </li>
+                    <li> <a href="#">others</a></li>
+                </ul>
+    
+            </div>
+        </li>
+        <li><a href ="#">Contact us</a>
+            <div class="submenu">
+                <ul>
+                    <li> <a href="#">my mission</a> </li>
+                    <li> <a href="#"> vision</a> </li>
+                    <li> <a href="#">mission</a> </li>
+                    <li> <a href="#">others</a></li>
+                </ul>
+    
+            </div>
+        </li>
+    </ul>  
+    </div>
+<div class="hero">
+    <div class="highway"></div>
+    <div class="city"></div>
+    <div class="car"> <img src="car.png" alt="car"></div>
+    <div class="wheel"> <img src="wheel.png" class="back_wheel" alt="">
+        <img src="wheel.png" class="front_wheel" alt="">
+    </div>
+</div>
+
+</body>
+</html>
+<style>
+    
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body {
+
+            background-image: ;
+            background-position: center;
+            background-size: cover;
+            background: burlywood;
+            font-family: sans-serif;
+        }
+        .menu_bar{
+            background-color: brown;
+            text-align: center;
+        }
+        .menu_bar ul{
+            display: inline-flex;
+            list-style-type: none;
+            color: cornsilk;
+
+        }
+        .menu_bar ul li{
+            width: 120px;
+            margin: 15px;
+            padding:15px ;
+
+        }
+        .menu_bar ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .active,.menu_bar ul li:hover {
+            background: rgb(197, 90, 90);
+            border-radius: 3px;
+        }
+        .submenu{
+            display: none;
+        }
+        .menu_bar ul li:hover .submenu{
+            display: block;
+            position: absolute;
+            background: brown;
+            margin-top: 15px;
+            margin-left:-15px ;
+        }
+        .menu_bar ul li:hover .submenu ul{
+            display: block;
+        }
+        .menu_bar ul li:hover .submenu ul li{
+            width: 150px;
+            padding:10px ;
+            border-bottom: 1px dotted white;
+            background: transparent;
+            border-radius: 0px;
+            text-align: left;
+
+        }
+        .menu_bar ul li:hover .submenu ul li:last-child{
+            border-bottom: none;
+        }
+        .menu_bar ul li:hover .submenu ul li a{
+            color:white;
+        }
+        #temp{
+            font-size: 25px;
+            display:block;
+            background-color: cornsilk;
+            box-sizing: border-box;
+            border-radius: 10px;
+
+        }
+        #temp_con{
+            font-size: 25px;
+            box-shadow: 20px;
+            background-color: darkgray;
+            border-radius: 10px;
+        }
+        #love{
+            font-size: 25px;
+            display:block;
+            background-color:cornsilk;
+            box-sizing: border-box;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: brown;
+
+        }
+        #love_cal{
+            font-size: 25px;
+            box-shadow: 20px;
+            background-color: darkgray;
+            border-radius: 10px;
+        }
+        #back{
+            font-size: 25px;
+            display:block;
+            background-color: cornsilk;
+            border-style: solid;
+            border-radius: 10px;
+            border-left: rgb(185, 42, 17);
+padding: 50px;
+        }
+        #back_changer{
+            font-size: 25px;
+            box-shadow: 20px;
+            background-color: darkgray;
+            border-radius: 10px;
+            display: inline;
+        }
+        .container1{
+        
+        content: icon;
+        
+        
+            
+        }
+</style>
